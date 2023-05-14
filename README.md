@@ -46,7 +46,7 @@ It works fine with SIP enabled, and macOS updates (including the Rapid Security 
 
 
 ## PSA:
-Before booting using this, [you need to disable CFG-Lock](https://github.com/dreamwhite/bios-extraction-guide/tree/master/Dell) or it won't boot.
+1. Before booting using this, [you need to disable CFG-Lock](https://github.com/dreamwhite/bios-extraction-guide/tree/master/Dell) or it won't boot.
 Disable it [using this specific version of `grub_setup_var`](https://github.com/XDleader555/grub_setup_var/releases/tag/v1.0-alpha).
 
 I've already added this version of `grub_setup_var` to the EFI folder, and also found the right BIOS flag to disable it, so here you go!
@@ -54,3 +54,8 @@ I've already added this version of `grub_setup_var` to the EFI folder, and also 
 | BIOS              | CFG Lock                      | Overclock Lock
 | ----------------- | ------------------------------| -----------------------------
 | `1.9.0`, `1.12.1`, `1.13.0`     | `setup_var CpuSetup 0x3E 0x0` | `setup_var CpuSetup 0xDA 0x0`
+
+2. Don't directly use this config.plist - you must change your serial number, board serial, and UUIDs (can be done with [this tool](https://github.com/corpnewt/GenSMBIOS)).
+
+
+:3
