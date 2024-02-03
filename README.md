@@ -64,7 +64,7 @@ Don't fret, [this tool](https://github.com/corpnewt/GenSMBIOS) wll generate it f
 
 Once you generate the values, replace these bits of my ```config.plist``` with your values:
 
-![Values to replace](Values_to_replace.jpeg)
+![Values to replace](https://github.com/theJayTea/XPS-13-7390-Hackintosh/blob/main/Values_to_replace.jpg)
 
 
 Good luck :]
