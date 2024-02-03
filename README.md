@@ -3,6 +3,7 @@ A perfect, vanilla setup of macOS Sonoma, Ventura, or Montery with Open Core for
 
 I scrupulously went through Dortiana’s guide and worked many brain cells to create this. It truly is something, thanks Dortiana, the OpenCore team, and all the Kext devs :)
 
+Make sure to read the PSA at the end for important instructions!
 
 ### CPU:
 i7 10510U (4.9Ghz & 4c+8t), power management & turbo boost work great!
