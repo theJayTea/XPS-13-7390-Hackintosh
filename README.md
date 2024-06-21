@@ -21,7 +21,7 @@ Built-in Killer Wifi+BT card (Intel-based, so OpenIntelWireless works)
 1.19.0 (the current latest)
 
 
-I also added thermal pads (https://imgur.com/a/MqWwBim) inside so the CPU can use the entire aluminum backplate as a heat spreader - it now runs without the fan kicking in unless I'm doing something very intensive, a palpable improvement! You could try this on your XPS too.
+I also added thermal pads (https://imgur.com/a/MqWwBim) inside so the CPU can use the entire aluminium backplate as a heat spreader - it now runs without the fan kicking in unless I'm doing something very intensive, a palpable improvement! You could try this on your XPS too.
 
 The internal SK Hynix SSD needed to be replaced as macOS doesn't support it. I popped in a WD Blue SN 570 - it works perfectly as the same chipset is used in real Macs. While at it, I gave it a fresh battery too!
 
@@ -59,7 +59,7 @@ I've already added this version of `grub_setup_var` to the EFI folder, and also 
 2. **Don't directly use this config.plist** - you must generate your own serial number, MLB, ROM, and UUID numbers and add this to my ```
 ```config.plist```.
 
-Don't fret, [this tool](https://github.com/corpnewt/GenSMBIOS) wll generate it for you :)
+Don't fret, [this tool](https://github.com/corpnewt/GenSMBIOS) will generate it for you :)
 
 [Here are detailed instructions.](https://dortania.github.io/OpenCore-Post-Install/universal/iservices.html#using-gensmbios)
 
